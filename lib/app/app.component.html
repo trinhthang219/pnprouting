@@ -1,0 +1,28 @@
+<h2>Angular And Bootstrap4 with Routing </h2>
+
+<header>
+    <nav>
+        <!-- <a routerLink="page1">Page1</a>
+        <a routerLink="page2">Page2</a>
+        <a routerLink="page3">Page3</a> -->
+        <button type="button" class="btn btn-default" routerLink="customer">customer</button>
+        <button type="button" class="btn btn-default" routerLink="customerdetail">customer detail</button>
+        <button type="button" class="btn btn-default" routerLink="customermgt">customer management</button>
+    </nav>
+</header>
+
+<main>
+    <!-- <table>
+        <thead>
+            <th>Name</th>
+            <th>Index</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let hero of data">
+                <td>{{hero.name}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr/> -->
+    <router-outlet></router-outlet>
+</main>
